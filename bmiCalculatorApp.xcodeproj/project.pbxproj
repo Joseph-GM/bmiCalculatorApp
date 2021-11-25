@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B203BA072750464100859189 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203BA062750464100859189 /* VideoViewController.swift */; };
+		B203BA0A275047FE00859189 /* bmiMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B203BA09275047FE00859189 /* bmiMovie.mp4 */; };
+		B203BA0D275052E900859189 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B203BA0C275052E900859189 /* WebViewController.swift */; };
 		B2452996274F08C900EF553C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2452995274F08C900EF553C /* AppDelegate.swift */; };
 		B2452998274F08C900EF553C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2452997274F08C900EF553C /* SceneDelegate.swift */; };
 		B245299A274F08C900EF553C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2452999274F08C900EF553C /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B203BA062750464100859189 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		B203BA09275047FE00859189 /* bmiMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmiMovie.mp4; sourceTree = "<group>"; };
+		B203BA0C275052E900859189 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B2452992274F08C900EF553C /* bmiCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bmiCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2452995274F08C900EF553C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2452997274F08C900EF553C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +70,7 @@
 		B2452994274F08C900EF553C /* bmiCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				B203BA09275047FE00859189 /* bmiMovie.mp4 */,
 				B24529AF274F798B00EF553C /* smile.png */,
 				B24529AD274F798400EF553C /* crying.png */,
 				B24529A9274F0FA100EF553C /* scale.png */,
@@ -71,6 +78,8 @@
 				B2452995274F08C900EF553C /* AppDelegate.swift */,
 				B2452997274F08C900EF553C /* SceneDelegate.swift */,
 				B2452999274F08C900EF553C /* ViewController.swift */,
+				B203BA062750464100859189 /* VideoViewController.swift */,
+				B203BA0C275052E900859189 /* WebViewController.swift */,
 				B245299B274F08C900EF553C /* Main.storyboard */,
 				B245299E274F08CA00EF553C /* Assets.xcassets */,
 				B24529A0274F08CA00EF553C /* LaunchScreen.storyboard */,
@@ -139,6 +148,7 @@
 				B24529AA274F0FA100EF553C /* scale.png in Resources */,
 				B24529B0274F798B00EF553C /* smile.png in Resources */,
 				B24529A2274F08CA00EF553C /* LaunchScreen.storyboard in Resources */,
+				B203BA0A275047FE00859189 /* bmiMovie.mp4 in Resources */,
 				B245299F274F08CA00EF553C /* Assets.xcassets in Resources */,
 				B24529AE274F798400EF553C /* crying.png in Resources */,
 				B245299D274F08C900EF553C /* Main.storyboard in Resources */,
@@ -155,6 +165,8 @@
 			files = (
 				B245299A274F08C900EF553C /* ViewController.swift in Sources */,
 				B2452996274F08C900EF553C /* AppDelegate.swift in Sources */,
+				B203BA072750464100859189 /* VideoViewController.swift in Sources */,
+				B203BA0D275052E900859189 /* WebViewController.swift in Sources */,
 				B2452998274F08C900EF553C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -287,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
