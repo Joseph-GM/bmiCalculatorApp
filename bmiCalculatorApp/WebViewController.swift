@@ -18,7 +18,7 @@ class WebViewController: UIViewController {
     }
     
     @IBAction func btnGoNaver(_ sender: UIButton) {
-        guard let url = URL(string: "https://m.naver.com") else {return}
+        guard let url = URL(string: "https://www.google.com") else {return}
         let request = URLRequest(url: url)
         webView?.load(request)
     }
